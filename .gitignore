@@ -1,0 +1,54 @@
+# Arduino IDE
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# External libraries
+libraries/
+
+# Arduino IDE 1.x
+*.o
+
+# Arduino IDE 2.x
+.vscode/
+.fqbn
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.sublime-project
+*.sublime-workspace
+.idea/
+
+# Build directories
+build/
+dist/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Arduino packages and libraries
+AppData/
+Documents/Arduino/
+Arduino/libraries/
+packages/
+
+# ESP32/ESP8266 specific
+.pio/
+.vscode/
